@@ -56,6 +56,7 @@ test.describe("Test Group", () => {
 
     await expect(page.locator("//p[@id='result']")).toBeVisible();
     await expect(page.locator("//p[@id='result']")).toContainText("Cydeo School");
+    //good practice
 
   });
 
